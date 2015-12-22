@@ -1,0 +1,16 @@
+.center {
+	text-align: center;
+
+}
+.bold{
+	font-weight: 900;
+}
+.italic{
+	font-style: italic;
+}
+.company{
+	font-weight: 500;
+}
+.date{
+	text-align: right;
+}
