@@ -1,4 +1,36 @@
-.center {
+/* unvisited link */
+a:link {
+    color: #3a74c1;
+}
+
+/* visited link */
+a:visited {
+    color: #3a74c1;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+* {
+	font-family: 'Raleway', sans-serif
+}
+h3 {
+	color: #3a74c1;
+	
+}
+h4 {
+	color: #3a74c1;
+}
+a {
+      text-decoration:none;
+}
+.centerText {
 	text-align: center;
 
 }
@@ -10,7 +42,22 @@
 }
 .company{
 	font-weight: 500;
+	color: #3a74c1;
 }
-.date{
+.rightAlign{
 	text-align: right;
 }
+.logo{
+	width:50px;
+	height:50px;
+	position:relative;
+	top:-20px;
+}
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
